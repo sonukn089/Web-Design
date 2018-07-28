@@ -7,82 +7,81 @@ user form
 </head>
 <body>
 
-<table border="1">
-<tr>
-<td colspan="2">User Registration Form</td>
+	<table border="1">
+		<tr>
+			<td colspan="2">User Registration Form</td>
+		</tr>
+		<tr>
+			<td>User Name :</td>
+			<td> 
+				<input type="text" name="un" placeholder="enter user name" size="30"/> 
+			</td>
+		</tr>
+		<tr>
+			<td>Password :</td>
+			<td> 
+				<input type="password" name="pass" placeholder="**********" size="30"/>
+			</td>
+	</tr>
+	<tr>
+	<td>
+	Name :
+	</td>
+	<td> <input type="text" name="name" placeholder="enter user name" size="30"/> </td>
+	</tr>
+	<tr>
+	<td style="vertical-align:top;">
+	Address :
+	</td>
+	<td> <textarea rows="10" cols="30" name="address"></textarea></td>
+	</tr>
+	<tr>
+	<td>
+	Gender :
+	</td>
+	<td> Male:<input type="radio" name="g"/> &nbsp; Female:<input type="radio" name="g"/> &nbsp;</td>
+	</tr>
+	<tr>
+	<td>
+	DOB :
+	</td>
+	<td> <input type="date" name="dob"  size="30"/> </td>
+	</tr>
+	<tr>
+	<td>
+	Location :
+	</td>
+	<td> Kolkata<input type="checkbox" name="k"/>&nbsp; 
+	Delhi<input type="checkbox" name="d"/>&nbsp;
+	 Saket<input type="checkbox" name="s"/>&nbsp; Kanpur<input type="checkbox" name="kk"/>
 
-</tr>
-<tr>
-<td>
-User Name :
-</td>
-<td> <input type="text" name="un" placeholder="enter user name" size="30"/> </td>
-</tr>
-<tr>
-<td>
-Password :
-</td>
-<td> <input type="password" name="pass" placeholder="**********" size="30"/> </td>
-</tr>
-<tr>
-<td>
-Name :
-</td>
-<td> <input type="text" name="name" placeholder="enter user name" size="30"/> </td>
-</tr>
-<tr>
-<td style="vertical-align:top;">
-Address :
-</td>
-<td> <textarea rows="10" cols="30" name="address"></textarea></td>
-</tr>
-<tr>
-<td>
-Gender :
-</td>
-<td> Male:<input type="radio" name="g"/> &nbsp; Female:<input type="radio" name="g"/> &nbsp;</td>
-</tr>
-<tr>
-<td>
-DOB :
-</td>
-<td> <input type="date" name="dob"  size="30"/> </td>
-</tr>
-<tr>
-<td>
-Location :
-</td>
-<td> Kolkata<input type="checkbox" name="k"/>&nbsp; 
-Delhi<input type="checkbox" name="d"/>&nbsp;
- Saket<input type="checkbox" name="s"/>&nbsp; Kanpur<input type="checkbox" name="kk"/>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	Select State :
+	</td>
+	<td>
+	<select name="state">
+	<option value="" selected> Select Your State</option>
+	<option value="bihar">Bihar</option>
+	<option value="delhi">Delhi</option>
+	<option value="up">up</option>
+	<option value="mp">mp</option>
+	</select>   </td>
+	</tr>
+	<tr>
+	<td>
+	Upload Your Pic
+	</td>
+	<td> <input type="file" name="file"/> </td>
+	</tr>
+	<tr>
+	<td>
 
-</td>
-</tr>
-<tr>
-<td>
-Select State :
-</td>
-<td>
-<select name="state">
-<option value="" selected> Select Your State</option>
-<option value="bihar">Bihar</option>
-<option value="delhi">Delhi</option>
-<option value="up">up</option>
-<option value="mp">mp</option>
-</select>   </td>
-</tr>
-<tr>
-<td>
-Upload Your Pic
-</td>
-<td> <input type="file" name="file"/> </td>
-</tr>
-<tr>
-<td>
-
-</td>
-<td> <input type="submit" name="btnsubmit" value="Register Me"/> </td>
-</tr>
+	</td>
+	<td> <input type="submit" name="btnsubmit" value="Register Me"/> </td>
+	</tr>
 </table>
 </body>
 
