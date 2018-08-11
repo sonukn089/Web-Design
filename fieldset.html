@@ -6,40 +6,55 @@
 
 h1 {
 	color: green;
+	font-size: 20px;
 
 }
 h5 {
-	color: yellow;
+	color: black;
 	font-size: 27px;
+	font-family: arial;
 
 }
 </style>
 
 </head>
+
 	<body>
-	
+		<table border="1" width="100%" height="35">
+			<tr>
+				<td></td>
+			</tr>
+		</table>
 		<h1>This is my first Page</h1>
 		
 		<h2 style="color: red; ">This is my Secon page</h2>
 		<h3 style="color: blue;">This is my third page </h3>
 		
 		<!-- Field Set -->
+		
 		<fieldset style="width:400px;" align="center">
 			<legend><h4>Login Panel</h4></legend>
-			
-			Name : <input type="text" size="20" /></br>
-			Age : <input type="text" size="20" />	
+			<table>
+				<tr>
+					<td>Name : <input type="text" name="name"size="20" /></td>
+				</tr>
+				<tr>
+					<td>Password : <input type="password" name="pass" size="20" /></td>
+				</tr>
+			</table>	
 			
 		</fieldset>
 		<!-- End Field Set -->
 		
-		<h5>This are the Audio and Video</h5>
+		<h5>There are Audio and Video</h5>
 		
 		<!-- Audio Controller -->
+		
 		<audio controls>
 			<source src="taal.mp3" type="audio/mpeg" />
 			Your borwser does not support the audio.
 		</audio>
+		
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		<!-- End Audio Controller -->
