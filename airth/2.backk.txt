@@ -1,0 +1,229 @@
+CSS BACKGROUND
+BY DINESH THAKUR
+
+ 
+The Background properties are used to set the background color, background image. It also helps to repeat the background and make background scroll with the contents etc.
+
+
+ 
+CSS BACKGROUND-COLOR
+
+ 
+
+The BACKGROUND-COLOR property is used to specify the background color of an element. The values that can be assigned to it are specified using their color values, hexadecimal code values, RGB value or using short hexadecimal code values. You can also specify transparent value that indicates no color is being used.
+
+ 
+
+p { BACKGROUND-COLOR: Red ;}
+
+h1 {BACKGROUND-COLOR: #FF0066;}
+
+BODY {BACKGROUND-COLOR: rgb(20, 33, 66);}
+
+ 
+
+CSS BACKGROUND-IMAGE
+
+ 
+
+The BACKGROUND- IMAGE property is used to specify the background image of an element. The possible values that can be assigned to it are none or url of an image.
+
+ 
+
+In order to assign an image some value, the URL of an image is enclosed in brackets which is preceded by the keyword URL. For example:
+
+ 
+
+BODY{background-image : url('/images/pic.gif');}
+
+P{background-image : none;}
+
+ 
+
+CSS BACKGROUND-REPEAT
+
+ 
+
+The BACKGROUND-REPEAT property is an important background property. When 'you specify the background image then it tiles horizontally as well as vertically across the entire area available to it. The Background-repeat property controls whether the background image is repeated or not. If also determines how it should be repeated. The possible values are.
+
+ 
+
+VALUE           PURPOSE
+
+ 
+
+repeat (default)       causes an image to repeat horizontally as well as vertically over the whole page.
+
+repeat-x                   causes an image to be repeated horizontally.
+
+
+ 
+repeat-y                  causes image to be repeated vertically.
+
+no- repeat                Image will not be repeated i.e. appears only once.
+
+ 
+
+For example:
+
+ 
+
+Body {
+
+background-image :  url (images/pic.gif);
+
+BACKGROUND-REPEAT : repeat-x;
+
+}
+
+ 
+
+CSS BACKGROUND-ATTACHMENT
+
+ 
+
+If the background image is specified then background-attachment property determines whether to scroll the background image or fix it relative to the page contents. This is commonly known as watermark. The possible values are:
+
+ 
+
+VALUE           PURPOSE
+
+ 
+
+Fixed                       Image does not move if the user scrolls up and down.
+
+Scroll (default)        Image moves as the user scrolls up and down.
+
+ 
+
+For example:
+
+ 
+
+Body {
+
+background-image :  url (images/pic.gif);
+
+background-attachment: Fixed;
+
+}
+
+ 
+
+CSS BACKGROUND-POSITION
+
+ 
+
+If the background image is specified, the background-position property determines the position of the background image. The possible values that can be assigned to it can be in terms so of percentage or length. You can also use keywords such as top, center, bottom, left and right. The default value is 0%0% (Upper Left corner).
+
+ 
+
+VALUE           PURPOSE
+
+ 
+
+x%y%                     Percentage along x and y-axis
+
+xy                            Absolute length along x and y axis
+
+ 
+
+For example:
+
+ 
+
+Body {
+
+background-image :  url (images/pic.gif);
+
+background-position: 50% 40%;
+
+}
+
+ 
+
+P {
+
+background-image :  url (images/pic.gif);
+
+background-position: 3cm 3cm;
+
+}
+
+ 
+
+The keywords top, bottom, center represent the vertical position and left, center, right represent the horizontal position. These can be used in combination to represent the background image position. For example:
+
+ 
+
+Body {
+
+background-image :  url (images/pic.gif);
+
+background-position: top left;
+
+}
+
+ 
+
+Example:
+
+ 
+
+<HTML>
+
+<HEAD>
+
+<TITLE>working of color & background attributes</TITLE>
+
+<STYLE TYPE == "textlcss">
+
+H1 {FONT-FAMILY: Comic Sans MS;
+
+FONT-SIZE:25; BACKGROUND-IMAGE:
+
+URL(C:\My Documents\dhtml\images\P ASSPORT.jpg)}
+
+H2 {FONT-EA.MIL Y: Comic Sans MS;
+
+FONT -SIZE: 25; BACKGROUND-IMAGE:
+
+URL(C:\My Documents\dhtml\images\P ASSPORT.jpg)
+
+BACKGROUND-REPEAT:NO-REPEAT}
+
+P {FONT-SIZE: 12pt; FONT-STYLE:ITALIC;
+
+COLOR:GREEN; BACKGROUND-COLOR:#FF3366
+
+BACKGROUND-POSITION:BOTTOM-LEFT}
+
+</STYLE>
+
+</HEAD>
+
+<BODY>
+
+<BR><CENTER>
+
+<H2>Cascading Style Sheets.</H2></CENTER><BR>
+
+<U>Effects with background repeat</U>
+
+<Hl>The Cascading Style Sheets (CSSs).</Hi:>
+
+<P:>The Cascading Style Sheets (CSSs) made the DHTML a powerful tool that is used to develop
+
+attractive web pages, which grab the immediate attention from the user. We can make changes
+
+
+ 
+globally in a web page with the help of DHTML.</P:><BR>
+
+<U:>Effects with background no-repeat</U:>
+
+<H2>The Cascading Style Sheets (CSSs)</H2>
+
+</BODY>
+
+</HTML:>
