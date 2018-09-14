@@ -153,6 +153,9 @@ ul li{
 	float:left;
 
 }
+.mid1 ul li{
+	
+}
 .mid2{
 	width:20%;
 	height:auto;
@@ -172,5 +175,35 @@ ul li{
 	width:20%;
 	height:auto;
 	float:left;
+}
+.m1{
+	width:100%;
+	background-color:#b3d9ff;
+}
+.wrap{
+	max-width:1180px;
+	width:100%;
+	margin:0px auto;
+}
+.wrap ul li{
+	float:center;
+	padding: 8px 0;
+	font-size:18px;
+}
+.footer{
+	
+	width:100%;
+	background-color:red;
+	
+}
+.footer1{
+	
+	width:50%;
+		
+}
+.footer2{
+	
+	width:50%;
+		
 }
 
