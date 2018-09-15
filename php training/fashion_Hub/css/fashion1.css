@@ -71,8 +71,19 @@ ul li{
 	font-size:20px;
 	text-decoration:none;
 }
-.menu ul li a:hover{
-	background-color:;
+
+
+.menu ul li li{
+	background:red;
+	border:2px solid black;
+	width:60px;
+	padding:10px;
+	display:none;
+	float:left;
+}
+
+.menu ul li:hover > ul li{
+	display:block !important;
 
 }
 
@@ -151,59 +162,188 @@ ul li{
 	width:20%;
 	height:auto;
 	float:left;
-
 }
-.mid1 ul li{
+
+.mid1 h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.mid1 ul li {
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    text-decoration:none;
 	
 }
 .mid2{
 	width:20%;
 	height:auto;
 	float:left;
+
 }
+
+.mid2 h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.mid2 ul li {
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    text-decoration: none;
+}
+
 .mid3{
 	width:20%;
 	height:auto;
 	float:left;
+
+}
+
+.mid3 h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.mid3 ul li {
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    text-decoration: none;
 }
 .mid4{
 	width:20%;
 	height:auto;
 	float:left;
+
+}
+
+.mid4 h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.mid4 ul li {
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    text-decoration: none;
 }
 .mid5{
 	width:20%;
 	height:auto;
 	float:left;
+
 }
+
+.mid5 h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.mid5 ul li {
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    text-decoration: none;
+}
+
 .m1{
 	width:100%;
 	background-color:#b3d9ff;
+	text-align: center;
+	
+}
+.m1 ul li{
+	
+	padding:20px;
+	
 }
 .wrap{
 	max-width:1180px;
 	width:100%;
 	margin:0px auto;
 }
-.wrap ul li{
-	float:center;
-	padding: 8px 0;
-	font-size:18px;
+
+
+
+.m-two{
+	margin-top:40px;
+border-top:1px solid white;	
+	padding:40px 0;
+border-bottom:1px solid white;	
 }
-.footer{
-	
+
+.m-two{
+	float:left;
+
 	width:100%;
-	background-color:red;
+	
+}
+
+.m-two li{
+	margin-top:20px;	
+	 text-decoration:none;
+	 list-style:none;
+	 font-size:18px;
+}
+.m-two li a{
+	 text-decoration:none;
+	 list-style:none;
+}
+
+i.fa.fa-facebook{
+	font-size:30px;
+	color:#fff;
+}
+
+i.fa.fa-twitter{
+	font-size:30px;
+	color:#fff;
+}
+
+i.fa.fa-youtube-play{
+	font-size:30px;
+	color:#fff;
+}
+
+i.fa.fa-linkedin{
+	font-size:30px;
+	color:#fff;
+}
+
+i.fa.fa-google-plus{
+	font-size:30px;
+	color:#fff;
+}
+
+
+.footer{
+	display:inline;
+	width:100%;
+	background-color:#b3ecff;
 	
 }
 .footer1{
-	
+	float:left;
 	width:50%;
+	
 		
 }
-.footer2{
+.footer1 div{
+	float:left;
+	display:inline;
+	width:10%;
+	height:200px;
+	padding:5px;
 	
+}
+.footer2{
+	float:right;
 	width:50%;
+	
 		
 }
 
