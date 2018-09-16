@@ -271,20 +271,21 @@ ul li{
 
 .m-two{
 	margin-top:40px;
-border-top:1px solid white;	
+	border-top:1px solid white;	
 	padding:40px 0;
-border-bottom:1px solid white;	
+	border-bottom:1px solid white;	
 }
 
 .m-two{
+	margin-top:40px;
 	float:left;
-
 	width:100%;
 	
 }
 
+
 .m-two li{
-	margin-top:20px;	
+	 margin-top:10px;	
 	 text-decoration:none;
 	 list-style:none;
 	 font-size:18px;
@@ -294,14 +295,51 @@ border-bottom:1px solid white;
 	 list-style:none;
 }
 
+.wrap social-m{
+	margin-top:40px;
+	border-top:1px solid white;	
+	padding:40px 0;
+	border-bottom:1px solid white;	
+}
+
+.wrap social-m{
+	margin-top:40px;
+	float:left;
+	width:100%;
+	
+}
+
+
+.wrap social-m{
+	 margin-top:10px;	
+	 text-decoration:none;
+	 list-style:none;
+	 font-size:18px;
+}
+.wrap social-m{
+	 text-decoration:none;
+	 list-style:none;
+}
+
+
+
+
+
+
 i.fa.fa-facebook{
-	font-size:30px;
+	font-size:40px;
+	color:#fff;
+}
+i.fa.fa-facebook:hover{
+	background-color:gray;
+}
+i.fa.fa-twitter{
+	font-size:40px;
 	color:#fff;
 }
 
-i.fa.fa-twitter{
-	font-size:30px;
-	color:#fff;
+i.fa.fa-twitter:hover{
+	background-color:gray;
 }
 
 i.fa.fa-youtube-play{
@@ -346,4 +384,5 @@ i.fa.fa-google-plus{
 	
 		
 }
+
 
